@@ -1,0 +1,25 @@
+.login{
+display: grid;
+place-items: center;
+height: 100vh;
+}
+
+.login > img{
+    height: 50%;
+}
+
+
+.login >a{
+    padding: 15px 30px;
+    background-color: #1db954;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 88px;
+    font-weight: 700;
+    margin-bottom: 10%;
+    transition: all 200ms ease-in-out;
+}
+.login >a:focus{
+    transform: scale(0.98);
+}
+
